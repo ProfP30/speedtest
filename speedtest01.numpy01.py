@@ -5,7 +5,6 @@ end_loop = np.arange(1_000_000_000)
 
 def main():
     # Loop through the numpy array
-    last_number: int
     for i in end_loop:
         last_number = i
 
