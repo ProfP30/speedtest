@@ -1,10 +1,7 @@
-end_loop: int = 1_000_000_000
-
 def main():
-    last_number: int
-    for i in range (end_loop):
-        last_number = i
+    for i in range (1_000_000_000):
+        pass
 
-    print(last_number)
+    print(f"{i=}")
 
 main()
