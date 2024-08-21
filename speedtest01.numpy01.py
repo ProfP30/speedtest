@@ -1,10 +1,12 @@
 import numpy as np
 
+END_LOOP: int = 1_000_000_000
+
 def main():
-    # Loop through the numpy array as list
-    for i in np.arange(1_000_000_000):
+    # Loop through the numpy array
+    for i in np.arange(END_LOOP):
         pass
 
-    print(f"{i=}")
+    print(f"last number:{i}")
 
 main()

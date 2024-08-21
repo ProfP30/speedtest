@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-const end_loop int = 1_000_000_000
+const END_LOOP int = 1_000_000_000
 
 func main() {
-	var last_number int
+	var last_number int = 0
 
-	for i := 0; i < end_loop; i++ {
+	for i := 0; i < END_LOOP; i++ {
 		last_number = i
 	}
-	fmt.Printf("%d\n", last_number)
+	fmt.Printf("last_number=%d\n", last_number)
 }
