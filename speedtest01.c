@@ -1,5 +1,5 @@
 // compile with:
-// gcc speedtest01.c -o speedtest01.bin
+// gcc speedtest01.c -o speedtest01_c.bin
 
 #include <stdio.h>
 
