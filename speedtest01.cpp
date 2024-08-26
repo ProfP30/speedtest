@@ -3,15 +3,15 @@
 
 #include <iostream>
 
-const unsigned int END_LOOP = 1000000000;
+#define END_LOOP 1000000000 // 1 Mrd.
 
 int main() {
     unsigned int last_number;
 
     for (unsigned int i = 0; i < END_LOOP; i++) {
-        last_number = i;
+        last_number++;
     }
-    std::cout << "last_number=" << last_number << std::endl;
+    std::cout << "C++:last_number=" << last_number << std::endl;
 
     return 0;
 }
