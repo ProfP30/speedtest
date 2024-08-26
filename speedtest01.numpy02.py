@@ -1,14 +1,15 @@
 import numpy as np
 
-END_LOOP = 1_000_000_000
+END_LOOP = 1_000_000_000 # 1 Mrd.
 
 def main():
     # make sure to size the index variable big enough; python crashes elsewise
     i = END_LOOP
+    last_number = 0
     # Loop through the numpy array as list
     for i in np.arange(END_LOOP).tolist():
-        last_number = i
+        last_number += 1
 
-    print(f"{last_number=}")
+    print(f"Python(Numpy #2):{last_number=}")
 
 main()
