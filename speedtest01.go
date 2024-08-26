@@ -1,3 +1,6 @@
+// compile with:
+// go run speetest01.go
+
 package main
 
 import "fmt"

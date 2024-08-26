@@ -1,6 +1,6 @@
 import numpy as np
 
-END_LOOP: int = 1_000_000_000
+END_LOOP = 1_000_000_000
 
 def main():
     # make sure to size the index variable big enough; python crashes elsewise

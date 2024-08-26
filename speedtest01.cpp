@@ -1,11 +1,14 @@
+// compile with
+// g++ speedtest01.cpp -o speedtest01_cpp.bin
+
 #include <iostream>
 
-const int END_LOOP = 1000000000;
+const unsigned int END_LOOP = 1000000000;
 
 int main() {
-    int last_number;
+    unsigned int last_number;
 
-    for (int i = 0; i < END_LOOP; i++) {
+    for (unsigned int i = 0; i < END_LOOP; i++) {
         last_number = i;
     }
     std::cout << "last_number=" << last_number << std::endl;
