@@ -3,13 +3,13 @@
 
 #include <stdio.h>
 
-const unsigned int END_LOOP = 1000000000;
+#define END_LOOP 1000000000 // 1 Mrd.
 
 void main() {
-    unsigned int last_number;
+    unsigned int last_number=0;
 
     for (unsigned int i = 0; i < END_LOOP; i++) {
-        last_number = i;
+        last_number++;
     }
-    printf("last_number=%d\n", last_number);
+    printf("C:last_number=%d\n", last_number );
 }
