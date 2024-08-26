@@ -1,9 +1,10 @@
+const int END_LOOP = 1000000000; // 1 Mrd.
+
 void main() {
-  const int END_LOOP = 1000000000;
-  int lastNumber;
+  int lastNumber = 0;
 
   for (int i = 0; i < END_LOOP; i++) {
-    lastNumber = i;
+    lastNumber++;
   }
-  print('last_number=$lastNumber');
+  print('Dart:last_number=$lastNumber\n--');
 }

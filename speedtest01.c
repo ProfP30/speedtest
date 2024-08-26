@@ -11,5 +11,5 @@ void main() {
     for (unsigned int i = 0; i < END_LOOP; i++) {
         last_number++;
     }
-    printf("C:last_number=%d\n", last_number );
+    printf("C:last_number=%d\n--\n", last_number );
 }

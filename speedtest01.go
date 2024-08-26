@@ -13,5 +13,5 @@ func main() {
 	for i := uint(0); i < END_LOOP; i++ {
 		last_number++
 	}
-	fmt.Printf("GO:last_number=%d\n", last_number)
+	fmt.Printf("GO:last_number=%d\n--", last_number)
 }

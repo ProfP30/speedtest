@@ -13,5 +13,5 @@ begin
         last_number := last_number+1;
 
     WriteLn('Pascal:last_number=', last_number);
-   
+    WriteLn('--');
 end.

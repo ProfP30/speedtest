@@ -7,7 +7,7 @@ function main() {
 		last_number++
 	}
 	
-    console.log("JavaScript:last_number=" + last_number + "\n")
+    console.log("JavaScript:last_number=" + last_number + "\n--")
 }
 
 main()

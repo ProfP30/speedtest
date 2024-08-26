@@ -10,6 +10,6 @@ def main():
     for i in list(np.arange(END_LOOP)):
         last_number += 1
 
-    print(f"Python(Numpy #3):{last_number=}")
+    print(f"Python(Numpy #3):{last_number=}\n--")
 
 main()

@@ -11,7 +11,7 @@ int main() {
     for (unsigned int i = 0; i < END_LOOP; i++) {
         last_number++;
     }
-    std::cout << "C++:last_number=" << last_number << std::endl;
+    std::cout << "C++:last_number=" << last_number << "\n--" << std::endl;
 
     return 0;
 }

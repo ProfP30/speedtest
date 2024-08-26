@@ -5,6 +5,6 @@ def main():
     for _ in range(END_LOOP):
         last_number += 1
 
-    print(f"Python:{last_number=}\n")
+    print(f"Python:{last_number=}\n--")
 
 main()
