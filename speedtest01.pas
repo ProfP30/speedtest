@@ -3,20 +3,15 @@
 
 program Speedtest01;
 
-const END_LOOP : LongInt = 1000000000;
-
-procedure Main;
+const
+    END_LOOP : UInt32 = 1000000000; // 1 Mrd.
 var
-    last_number : LongInt;
-    i : LongInt;
+    last_number : UInt32 = 0;
+    i : UInt32;
 begin
-    for i := 1 to END_LOOP do
-        last_number := i;
-    
-    Write('last_number: ');
-    WriteLn(last_number);
-end;
+    for i := 0 to (END_LOOP-1) do
+        last_number := last_number+1;
 
-begin
-    Main;
+    WriteLn('Pascal:last_number=', last_number);
+   
 end.
