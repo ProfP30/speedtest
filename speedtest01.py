@@ -1,9 +1,10 @@
-END_LOOP: int = 1_000_000_000
+END_LOOP = 1_000_000_000 # 1 Mrd.
 
 def main():
-    for i in range(END_LOOP):
-        last_number = i
+    last_number = 0
+    for _ in range(END_LOOP):
+        last_number += 1
 
-    print(f"{last_number=}")
+    print(f"Python:{last_number=}\n")
 
 main()
